@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f5f0" />
+    <meta name="description" content="heiiilover 的作品与公开项目：MIPS CPU RTL、AI 科研工具和 PaddlePaddle。" />
+    <title>作品集 · heiiilover</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">跳到主要内容</a>
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="回到首页" data-i18n-aria="homeAria"><span class="brand-mark" aria-hidden="true">我</span><span>heiiilover<span class="brand-dot">.</span></span></a>
+      <nav aria-label="主导航" data-i18n-aria="navAria">
+        <a href="./portfolio.html" aria-current="page" data-i18n="navPortfolio">作品集</a>
+        <a href="./blog.html" data-i18n="navBlog">博客</a>
+        <a href="./resume.html" data-i18n="navResume">简历</a>
+        <a class="nav-contact" href="./index.html#contact" data-i18n="navContact">联系我 ↗</a>
+        <button class="lang-switch" type="button" data-lang-toggle aria-label="Switch to English">EN</button>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="page-hero shell" aria-labelledby="page-title">
+        <p class="section-kicker">PORTFOLIO / 作品集</p>
+        <h1 id="page-title" data-i18n-html="portfolioTitle">做过的事，<br /><span class="highlight">都值得被看见<span class="highlight-dot">.</span></span></h1>
+        <p data-i18n="portfolioIntro">这里整理我自己的 RTL 项目，以及 GitHub 上关注的开源项目。Fork 仓库会明确标注。</p>
+      </section>
+      <section class="content-section shell" aria-label="作品列表">
+        <div class="content-grid">
+          <article class="content-card">
+            <span class="card-meta" data-i18n="projectCpuType">独立项目 / Verilog</span>
+            <h2 data-i18n="projectCpuTitle">MIPS 五级流水线 CPU</h2>
+            <p data-i18n="projectCpuDescription">整理自我的 myCPU RTL：五级流水线、2 KiB 指令与数据缓存、AXI 主设备接口，以及 CP0、异常处理和迭代除法器。</p>
+            <a href="https://github.com/heiiilover/mips-cpu-axi" target="_blank" rel="noopener noreferrer" data-i18n="viewRepository">查看仓库 ↗</a>
+          </article>
+          <article class="content-card">
+            <span class="card-meta" data-i18n="collabType">协作项目 / Python</span>
+            <h2>FinCUABuild · FinDynAgent</h2>
+            <p data-i18n="projectFinDescription">面向动态金融计算机操作基准的多智能体构建项目。我参与了项目源码上传和 README 文档整理。</p>
+            <a href="https://github.com/FengxianJi/FinCUABuild" target="_blank" rel="noopener noreferrer" data-i18n="viewRepository">查看仓库 ↗</a>
+          </article>
+          <article class="content-card">
+            <span class="card-meta" data-i18n="forkType">公开 Fork / 探索中</span>
+            <h2>The Library of AI Scientist</h2>
+            <p data-i18n="projectAiDescription">一个面向 AI Scientist 的论文检索与组织系统。这里展示的是我在 GitHub 上的公开 fork。</p>
+            <a href="https://github.com/heiiilover/The-Library-of-AI-Scientist" target="_blank" rel="noopener noreferrer" data-i18n="viewRepository">查看仓库 ↗</a>
+          </article>
+          <article class="content-card">
+            <span class="card-meta" data-i18n="forkType">公开 Fork / 探索中</span>
+            <h2>PaddlePaddle Docs</h2>
+            <p data-i18n="projectDocsDescription">飞桨文档仓库的公开 fork，用来关注框架文档与技术内容。</p>
+            <a href="https://github.com/heiiilover/docs" target="_blank" rel="noopener noreferrer" data-i18n="viewRepository">查看仓库 ↗</a>
+          </article>
+          <article class="content-card">
+            <span class="card-meta" data-i18n="forkType">公开 Fork / 探索中</span>
+            <h2>PaddlePaddle</h2>
+            <p data-i18n="projectPaddleDescription">飞桨深度学习框架的公开 fork；这里不把上游项目的成果写成个人独立作品。</p>
+            <a href="https://github.com/heiiilover/Paddle" target="_blank" rel="noopener noreferrer" data-i18n="viewRepository">查看仓库 ↗</a>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer shell">
+      <a class="brand" href="./index.html"><span class="brand-mark" aria-hidden="true">我</span><span>heiiilover<span class="brand-dot">.</span></span></a>
+      <p>© <span id="year">2026</span> heiiilover. <span data-i18n="footerTagline">学习、实验、成长。</span></p>
+      <a href="./index.html" data-i18n="backHome">返回首页 ↑</a>
+    </footer>
+    <script src="./script.js" defer></script>
+    <script src="./i18n.js" defer></script>
+  </body>
+</html>
