@@ -24,6 +24,8 @@
 
 头像使用 DiceBear 的 [Adventurer](https://www.dicebear.com/styles/adventurer/) 风格，原作者 Lisa Wischofsky，按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 署名；由 DiceBear API 以 `Nana` 种子生成。
 
-## 发布计划
+## 公开网址
 
-可把网站根目录中的 HTML、CSS、JS、SVG 和 `avatar.png` 上传到 `heiiilover.github.io` 仓库并启用 GitHub Pages，网站地址将是 `https://heiiilover.github.io/`。`project-src/` 和预览截图由 `.gitignore` 排除，MIPS CPU 项目单独发布到 `mips-cpu-axi` 仓库。GitHub Pages 对公开仓库免费。
+网站已发布到 [https://heiiilover.github.io/](https://heiiilover.github.io/)，源代码在 [heiiilover.github.io](https://github.com/heiiilover/heiiilover.github.io) 仓库。MIPS CPU 项目单独发布在 [mips-cpu-axi](https://github.com/heiiilover/mips-cpu-axi) 仓库。`project-src/` 和预览截图由 `.gitignore` 排除，不进入网站仓库。GitHub Pages 对公开仓库免费。
+
+这次网络只允许通过 GitHub API 上传，两个远端仓库的提交历史与本地 Git 提交历史不同。下次修改后，可以在本地提交，再运行 `.local-tools/github_api.py upload-site` 或 `upload-cpu` 更新远端；该脚本使用电脑上已有的 Git Credential Manager 登录，不保存凭据。
